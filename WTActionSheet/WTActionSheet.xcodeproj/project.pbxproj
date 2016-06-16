@@ -57,9 +57,7 @@
 		C8B67F4A1D1247B8006A7C3C /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
 		C8B67F4B1D1247B8006A7C3C /* BSActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSActionSheet.h; sourceTree = "<group>"; };
 		C8B67F4C1D1247B8006A7C3C /* BSActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSActionSheet.m; sourceTree = "<group>"; };
-		C8B67F4E1D1247B8006A7C3C /* BSAppKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAppKey.h; sourceTree = "<group>"; };
 		C8B67F4F1D1247B8006A7C3C /* BSMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMacros.h; sourceTree = "<group>"; };
-		C8B67F501D1247B8006A7C3C /* BSSystemConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSystemConfigure.h; sourceTree = "<group>"; };
 		C8B67F511D1247B8006A7C3C /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		C8B67F521D1247B8006A7C3C /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,9 +158,7 @@
 		C8B67F4D1D1247B8006A7C3C /* Macros */ = {
 			isa = PBXGroup;
 			children = (
-				C8B67F4E1D1247B8006A7C3C /* BSAppKey.h */,
 				C8B67F4F1D1247B8006A7C3C /* BSMacros.h */,
-				C8B67F501D1247B8006A7C3C /* BSSystemConfigure.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -526,6 +522,7 @@
 				C8B67F431D12479D006A7C3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8B67F441D12479D006A7C3C /* Build configuration list for PBXNativeTarget "WTActionSheetTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +531,7 @@
 				C8B67F461D12479D006A7C3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8B67F471D12479D006A7C3C /* Build configuration list for PBXNativeTarget "WTActionSheetUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +540,7 @@
 				C8B67F491D12479D006A7C3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

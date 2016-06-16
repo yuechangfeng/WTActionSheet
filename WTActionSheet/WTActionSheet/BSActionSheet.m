@@ -8,7 +8,8 @@
 
 #import "BSActionSheet.h"
 //
-#import "Headers.h"
+#import "BSMacros.h"
+#import "UIImage+Color.h"
 
 #define kAnimationTime 0.3
 #define kSeparator_Height 6
