@@ -68,6 +68,8 @@
     self.viewCotnent = [[UIView alloc] initWithFrame:CGRectMake(0, SCREEN_HEIGHT, frameCotnent.size.width, frameCotnent.size.height)];
     self.viewCotnent.backgroundColor = RGBCOLOR(233, 233, 238);
     [self addSubview:self.viewCotnent];
+    UITapGestureRecognizer *tapGContent = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapBottomContent)];
+    [self.viewCotnent addGestureRecognizer:tapGContent];
     //
     CGFloat y = 0;//记录下一个控件的 y
     if (self.strTitle) {//有标题
@@ -149,6 +151,11 @@
 - (void)tapSelf
 {
     [self closeSelf];
+}
+
+- (void)tapBottomContent
+{
+    
 }
 
 - (void)btnClickContent:(UIButton *)sender
